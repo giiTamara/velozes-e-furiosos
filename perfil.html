@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Perfil</title>
+  <link rel="stylesheet" href="perfil.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Meu Perfil</h1>
+    <form action="#" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="idade">Idade:</label>
+      <input type="number" id="idade" name="idade" min="1" required>
+
+      <label for="genero">Gênero:</label>
+      <select id="genero" name="genero">
+        <option>Masculino</option>
+        <option>Feminino</option>
+        <option>Outro</option>
+        <option>Prefiro não dizer</option>
+      </select>
+
+      <label for="gostos">Gêneros de filmes favoritos:</label>
+      <div class="checkboxes">
+        <label><input type="checkbox" name="generoFilme" value="Ação"> Ação</label>
+        <label><input type="checkbox" name="generoFilme" value="Terror"> Terror</label>
+        <label><input type="checkbox" name="generoFilme" value="Comédia"> Comédia</label>
+        <label><input type="checkbox" name="generoFilme" value="Romance"> Romance</label>
+        <label><input type="checkbox" name="generoFilme" value="Suspense"> Suspense</label>
+        <label><input type="checkbox" name="generoFilme" value="Animação"> Animação</label>
+      </div>
+
+      <label for="comentario">Comentário:</label>
+      <textarea id="comentario" name="comentario" rows="4" placeholder="Escreva algo legal sobre seu gosto por filmes..."></textarea>
+
+      <button type="submit">Salvar</button>
+    </form>
+  </div>
+</body>
+</html>

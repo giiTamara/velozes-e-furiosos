@@ -1,0 +1,80 @@
+body {
+  background-color: #000;
+  color: #FFA500;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
+}
+
+.container {
+  background-color: #111;
+  border: 2px solid #FFA500;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 20px #FFA500;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.5rem;
+  color: #FFA500;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  background-color: #222;
+  color: #FFA500;
+  box-shadow: 0 0 5px #FF8C00 inset;
+}
+
+.checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.checkboxes label {
+  font-weight: normal;
+}
+
+button {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #FFA500;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #FFA500;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #FF8C00;
+}
