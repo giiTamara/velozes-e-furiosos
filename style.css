@@ -1,14 +1,23 @@
 /* style.css */
 
 body { 
-    background-color: #000; color: #FFA500; font-family: Arial, sans-serif; margin: 0; padding: 0;
+    background-color: #000; 
+    color: #FFA500;
+     font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
 }
 
 header { 
-    background-color: #111; padding: 20px; text-align: center; border-bottom: 2px solid #FFA500; }
+    background-color: #111;
+     padding: 20px;
+      text-align: center; 
+      border-bottom: 2px solid #FFA500; }
 
 header h1 { 
-    font-family: 'Bebas Neue', cursive; font-size: 3.5rem; color: #FFA500; text-transform: uppercase; margin: 0; 
+    font-family: 'Bebas Neue', cursive;
+     font-size: 3.5rem; 
+     color: #FFA500;
+      text-transform: uppercase; margin: 0; 
 }
 
 nav {
@@ -16,7 +25,11 @@ nav {
 }
 
 nav a { 
-    color: #FFA500; margin: 0 10px; text-decoration: none; font-weight: bold; transition: color 0.3s; 
+    color: #FFA500;
+     margin: 0 10px;
+      text-decoration: none;
+       font-weight: bold;
+        transition: color 0.3s; 
 }
 
 nav a:hover { 
@@ -24,35 +37,50 @@ nav a:hover {
 }
 
 .principal { 
-    display: flex; flex-wrap: wrap; padding: 20px; 
+    display: flex;
+     flex-wrap: wrap; 
+     padding: 20px; 
 }
 
 .resumo { 
-    flex: 1; padding-right: 20px; min-width: 300px; 
+    flex: 1; 
+    padding-right: 20px; 
+    min-width: 300px; 
 }
 
 .imagem { 
-    flex: 1; text-align: center; min-width: 300px; 
+    flex: 1; 
+    text-align: center; 
+    min-width: 300px; 
 }
 
 .imagem img { 
-    max-width: 100%; height: auto; border: 3px solid #FFA500; 
+    max-width: 100%; 
+    height: auto; 
+    border: 3px solid #FFA500; 
 }
 
 .atores { 
-    padding: 30px; background-color: #111; border-top: 2px solid #FFA500; 
+    padding: 30px; 
+    background-color: #111;
+     border-top: 2px solid #FFA500; 
 }
 
 .atores h2 { 
-    font-family: 'Bebas Neue', cursive; font-size: 2.5rem; color: #FFA500; 
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 2.5rem; 
+    color: #FFA500; 
 }
 
 .atores ul { 
-    list-style: none; padding: 0; 
+    list-style: none;
+     padding: 0; 
 }
 
 .atores li { 
-    padding: 8px 0; font-size: 1.2rem; border-bottom: 1px solid #FFA500; 
+    padding: 8px 0;
+     font-size: 1.2rem; 
+     border-bottom: 1px solid #FFA500; 
 }
 
 @media (max-width: 768px) { .principal { flex-direction: column; } }

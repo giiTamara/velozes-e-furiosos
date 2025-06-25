@@ -46,7 +46,7 @@ input, select, textarea {
   font-size: 1rem;
   background-color: #222;
   color: #FFA500;
-  box-shadow: 0 0 5px #FF8C00 inset;
+  box-shadow: 0 0 5px #ffa500 inset;
 }
 
 .checkboxes {
