@@ -2,23 +2,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Perfil do Usuário</title>
+  <title>Perfil do Usuário - KittyCine</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="perfil.css">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="perfil-capa">
-    <div class="perfil-container">
-      <h2>Quem está assistindo?</h2>
-      <div class="perfil-item">
-        <label for="upload-foto">
-          <img src="usuario.jpg" alt="Foto do usuário" class="foto-perfil">
-        </label>
-        <input type="file" id="upload-foto" style="display: none">
-        <p class="nome">gigicazwx</p>
-      </div>
-      <a href="#" class="administrar">Administrar perfis</a>
+  <div class="perfil-container">
+    <h2>Quem está assistindo?</h2>
+    <div class="perfil" onclick="location.href='usuario.html'">
+      <img src="avatar.jpg" alt="Foto do usuário">
+      <h3>gigicazwx</h3>
     </div>
+    <button class="botao-admin">Administrar perfis</button>
   </div>
 </body>
 </html>
