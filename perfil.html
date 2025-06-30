@@ -3,27 +3,42 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Perfil do Usuário</title>
+  <title>Perfil do Usuário - KittyCine</title>
   <link rel="stylesheet" href="perfil.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="perfil-container">
-    <div class="avatar">
-      <img src="avatar.jpg" alt="Avatar do usuário" />
-    </div>
-    <h2 class="nome-usuario">gigicazwx</h2>
-    <div class="info">
-      <p><strong>Idade:</strong> 17 anos</p>
-      <p><strong>Gêneros favoritos:</strong> Ação, Corrida, Suspense, Drama</p>
-      <p><strong>Filmes assistidos recentemente:</strong></p>
-      <ul>
-        <li>Velozes e Furiosos: Desafio em Tóquio</li>
-        <li>Matrix</li>
-        <li>Homem-Aranha: Sem Volta Para Casa</li>
-        <li>Super Mario Bros</li>
-      </ul>
+    <h1>Seu Perfil</h1>
+    <div class="perfil-info">
+      <img src="avatar.jpg" alt="Avatar do usuário" class="avatar">
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" placeholder="Digite sua idade">
+
+        <label for="generos">Gêneros Favoritos:</label>
+        <select id="generos" name="generos" multiple>
+          <option value="acao">Ação</option>
+          <option value="comedia">Comédia</option>
+          <option value="drama">Drama</option>
+          <option value="terror">Terror</option>
+          <option value="romance">Romance</option>
+          <option value="aventura">Aventura</option>
+          <option value="suspense">Suspense</option>
+          <option value="ficcao">Ficção Científica</option>
+          <option value="animacao">Animação</option>
+        </select>
+
+        <label for="historico">Histórico de Filmes:</label>
+        <textarea id="historico" name="historico" rows="4" placeholder="Ex: Avatar, Barbie, Velozes e Furiosos..."></textarea>
+
+        <button type="submit">Salvar Perfil</button>
+      </form>
     </div>
   </div>
 </body>
 </html>
+
