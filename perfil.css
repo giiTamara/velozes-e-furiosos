@@ -1,67 +1,45 @@
-body {
-  margin: 0;
-  padding: 0;
-  background: url('bg.jpg') no-repeat center center fixed;
-  background-size: cover;
-  font-family: 'Poppins', sans-serif;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.perfil-container {
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 40px;
+.formulario-edicao {
+  background-color: #111;
+  padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 0 30px rgba(255, 165, 0, 0.6);
-  max-width: 400px;
-  width: 90%;
-}
-
-.perfil-container h2 {
-  font-size: 1.8rem;
-  margin-bottom: 20px;
+  max-width: 600px;
+  margin: 0 auto;
   color: #FFA500;
+  box-shadow: 0 0 30px rgba(255, 165, 0, 0.4);
+  margin-top: 80px;
 }
 
-.perfil-foto {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin: 0 auto 20px;
-  border: 3px solid #FFA500;
-}
-
-.perfil-foto img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.formulario-edicao label {
   display: block;
+  margin-top: 15px;
+  font-size: 1.1rem;
 }
 
-.perfil-nome {
-  font-size: 1.4rem;
-  font-weight: bold;
+.formulario-edicao input,
+.formulario-edicao select,
+.formulario-edicao textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #222;
+  color: #FFA500;
+  font-size: 1rem;
 }
 
-.botao-admin {
-  display: inline-block;
+.formulario-edicao button {
   margin-top: 20px;
   padding: 10px 20px;
-  border: 2px solid #FFA500;
-  color: #FFA500;
-  border-radius: 30px;
-  text-decoration: none;
-  transition: 0.3s;
-  font-weight: bold;
+  background-color: #FFA500;
+  border: none;
+  color: #000;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.botao-admin:hover {
-  background-color: #FFA500;
-  color: #000;
+.formulario-edicao button:hover {
+  background-color: #FF8C00;
 }
