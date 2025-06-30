@@ -1,45 +1,55 @@
-.formulario-edicao {
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: 'Anton', sans-serif;
+  color: #FFA500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.perfil-container {
+  text-align: center;
   background-color: #111;
-  padding: 30px;
-  border-radius: 10px;
-  max-width: 600px;
-  margin: 0 auto;
-  color: #FFA500;
-  box-shadow: 0 0 30px rgba(255, 165, 0, 0.4);
-  margin-top: 80px;
+  padding: 40px;
+  border: 2px solid #FFA500;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #FF8C00;
+  max-width: 400px;
+  width: 90%;
 }
 
-.formulario-edicao label {
-  display: block;
+.avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #FFA500;
+  box-shadow: 0 0 15px #FFA500;
+}
+
+.nome-usuario {
   margin-top: 15px;
-  font-size: 1.1rem;
-}
-
-.formulario-edicao input,
-.formulario-edicao select,
-.formulario-edicao textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: none;
-  border-radius: 5px;
-  background-color: #222;
+  font-size: 2rem;
   color: #FFA500;
-  font-size: 1rem;
 }
 
-.formulario-edicao button {
+.info {
   margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #FFA500;
-  border: none;
-  color: #000;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
+  text-align: left;
 }
 
-.formulario-edicao button:hover {
-  background-color: #FF8C00;
+.info p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.info ul {
+  padding-left: 20px;
+}
+
+.info li {
+  margin-bottom: 5px;
 }
