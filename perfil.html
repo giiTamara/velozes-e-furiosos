@@ -1,44 +1,40 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html><html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Perfil do Usuário - KittyCine</title>
   <link rel="stylesheet" href="perfil.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="perfil-container">
-    <h1>Seu Perfil</h1>
-    <div class="perfil-info">
+    <div class="topo-perfil">
       <img src="avatar.jpg" alt="Avatar do usuário" class="avatar">
-      <form>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+      <div class="dados-basicos">
+        <h2 class="nome">gigicazwx</h2>
+        <p class="idade">Idade: 17 anos</p>
+        <p class="generos">Gêneros favoritos: Ação, Corrida, Suspense</p>
+      </div>
+      <button class="editar">Editar Perfil</button>
+    </div><div class="historico-filmes">
+  <h3>Filmes Assistidos</h3>
+  <ul>
+    <li>Velozes e Furiosos: Desafio em Tóquio</li>
+    <li>Top Gun: Maverick</li>
+    <li>Barbie</li>
+    <li>John Wick 4</li>
+    <li>Interstellar</li>
+    <li>Pantera Negra: Wakanda Para Sempre</li>
+  </ul>
+</div>
 
-        <label for="idade">Idade:</label>
-        <input type="number" id="idade" name="idade" placeholder="Digite sua idade">
+<div class="configuracoes">
+  <h3>Configurações da Conta</h3>
+  <p>Email: gigicazwx@exemplo.com</p>
+  <p>Status: Assinatura ativa</p>
+  <button class="logout">Sair da Conta</button>
+</div>
 
-        <label for="generos">Gêneros Favoritos:</label>
-        <select id="generos" name="generos" multiple>
-          <option value="acao">Ação</option>
-          <option value="comedia">Comédia</option>
-          <option value="drama">Drama</option>
-          <option value="terror">Terror</option>
-          <option value="romance">Romance</option>
-          <option value="aventura">Aventura</option>
-          <option value="suspense">Suspense</option>
-          <option value="ficcao">Ficção Científica</option>
-          <option value="animacao">Animação</option>
-        </select>
-
-        <label for="historico">Histórico de Filmes:</label>
-        <textarea id="historico" name="historico" rows="4" placeholder="Ex: Avatar, Barbie, Velozes e Furiosos..."></textarea>
-
-        <button type="submit">Salvar Perfil</button>
-      </form>
-    </div>
   </div>
 </body>
 </html>
-
